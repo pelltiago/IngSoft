@@ -7,9 +7,9 @@
 	</tr>
 
 	<% residencias = Residencia.all %>
-	<% residencias.each do |r| %>
+	<% residencias.each do |residencia| %>
 		<tr>
-			<td> <%= r.nombre %> </td>
+			<td> <%= residencia.nombre %> </td>
 		</tr>
 	<% end %>
 
