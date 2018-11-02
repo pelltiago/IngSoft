@@ -1,0 +1,3 @@
+class SubastasController < ApplicationController
+
+end
