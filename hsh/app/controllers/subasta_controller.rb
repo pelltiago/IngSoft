@@ -1,0 +1,2 @@
+class SubastaController < ApplicationController
+end
