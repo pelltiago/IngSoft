@@ -1,2 +1,0 @@
-class Alojamiento < ApplicationRecord
-end

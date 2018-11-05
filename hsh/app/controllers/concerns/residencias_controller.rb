@@ -1,3 +1,0 @@
-class ResidenciasController < ApplicationController
-
-end
