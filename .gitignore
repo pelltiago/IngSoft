@@ -5,3 +5,4 @@ hsh/app/.DS_Store
 ecorp/.DS_Store
 ecorp/app/.DS_Store
 hsh/app/models/.DS_Store
+ecorp/app/controllers/residence_controller.rb
