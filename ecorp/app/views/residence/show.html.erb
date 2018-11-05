@@ -1,21 +1,23 @@
 <h1> Residencias </h1>
 
 <table>
-	<thead>
-		
-		<tr>Nombre</tr>
-		<tr>Descripcion</tr>
-		
-	</thead>
+	
+		<tr>
+		<td>Nombre</td>
+		<td>Descripcion</td>
+		</tr>
+	
 
 <tbody>
+	<p>
 <label for="name"> Name</label>
  <input type="text" id="name" name="name" placeholder="Nombre residence">
+</p>
+
 	<%= @residences.each do |residence| %>
 
 	<tr>
-		<td><%= residence.name %></td>
-		
+		<td><%= residence.name %></td>	
 		<td> </td>
 	</tr>
 	<% end %>
