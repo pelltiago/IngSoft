@@ -9,8 +9,7 @@ class ResidenceController < ApplicationController
   end
 
   def show
-  	@residence = Residence.all
-
+  	@residences = Residence.all
   end
 
   def destroy
