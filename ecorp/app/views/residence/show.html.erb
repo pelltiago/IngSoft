@@ -1,2 +1,21 @@
-<h1> Show </h1>
+<h1> Residencias </h1>
 
+<table>
+	<thead>
+		<tr>
+		<tr>Nombre</tr>
+		<th>Descripcion<th>
+		</tr>
+	</thead>
+
+<tbody>
+	<%= @residences.each do |r| %>
+	<tr>
+		<td><%= residence.name %></td>
+		<td> </td>
+	</tr>
+	<%= end %>
+</tbody>
+</table>
+
+<br>
