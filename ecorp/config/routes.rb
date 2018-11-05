@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  get 'residence/new'
-  get 'residence/create'
-  get 'residence/destroy'
+
+  resources :residence
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
