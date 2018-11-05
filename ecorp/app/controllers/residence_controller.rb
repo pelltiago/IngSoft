@@ -1,11 +1,10 @@
 class ResidenceController < ApplicationController
   def new
-  	@residence = Residence.new
+  	@residences = Residence.new
   end
 
   def create
-  	@residence = Residence.new(params.require(:residence).permit(:name, :desc, :location))
-  	redirect_to residence_path, notice: "Residencia creada con exito"
+  	@residences = Residence.new
   end
 
   def show

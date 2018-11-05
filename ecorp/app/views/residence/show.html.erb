@@ -2,20 +2,20 @@
 
 <table>
 	<thead>
-		<tr>
+		
 		<tr>Nombre</tr>
-		<th>Descripcion<th>
-		</tr>
+		<tr>Descripcion</tr>
+		
 	</thead>
 
 <tbody>
-
+<label for="name"> Name</label>
+ <input type="text" id="name" name="name" placeholder="Nombre residence">
 	<%= @residences.each do |residence| %>
 
 	<tr>
 		<td><%= residence.name %></td>
-		<label for="name"> Name</label>
-    	<input type="text" id="name" name="name" placeholder="Nombre residence">
+		
 		<td> </td>
 	</tr>
 	<% end %>
