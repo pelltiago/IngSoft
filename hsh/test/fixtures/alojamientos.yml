@@ -3,9 +3,7 @@
 one:
   nombre: MyString
   descripcion: MyString
-  reservado: false
 
 two:
   nombre: MyString
   descripcion: MyString
-  reservado: false

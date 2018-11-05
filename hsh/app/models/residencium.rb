@@ -1,2 +1,0 @@
-class Residencium < ApplicationRecord
-end

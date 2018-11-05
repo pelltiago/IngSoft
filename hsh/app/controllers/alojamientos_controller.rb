@@ -4,5 +4,10 @@ class AlojamientosController < ApplicationController
   end
 
   def create
+		@alojamiento=Alojamiento.new(nombre: params[:alojamiento][:nombre], descripcion: params[:alojamiento][:descripcion])  	
+  		redirect_to alojamientos_path 
   end
-end
+  end
+
+
+

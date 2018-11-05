@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_11_04_043202) do
+ActiveRecord::Schema.define(version: 2018_11_04_235304) do
+
+  create_table "alojamientos", force: :cascade do |t|
+    t.string "nombre"
+    t.string "descripcion"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "residencia", force: :cascade do |t|
     t.string "nombre"
