@@ -8,6 +8,11 @@ class ResidenceController < ApplicationController
   	redirect_to residence_path, notice: "Residencia creada con exito"
   end
 
+  def show
+  	@residence = Residence.all
+
+  end
+
   def destroy
   end
 end
