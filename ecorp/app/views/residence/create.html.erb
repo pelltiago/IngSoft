@@ -1,18 +1,18 @@
 <h1>Residence#create</h1>
 
 
-	<%= form_for @residence do |f| %>
+<%= form_for @residence do |f| %>
 		
-		<div class="form-group">
-			<%= f.label :name, 'Nombre' %>
-  			<%= f.text_field :name, class: 'form-control', placeholder: 'Ingrese el nombre de la residencia'
+	   <div class="form-group">
+			  <%= f.label :name, 'Nombre' %>
+  			<%= f.text_field :name, class: 'form-control', placeholder: 'Ingrese el nombre de la residencia', required: true %>
   		</div>
   		
 
 
 		<div class="form-group">
 				<%= f.label :desc, 'Descripcion' %>
-  				<%= f.text_field :desc, class: 'form-control', placeholder: 'Ingrese la descripcion de la residencia'
+  				<%= f.text_field :desc, class: 'form-control', placeholder: 'Ingrese la descripcion de la residencia' %>
   		</div>
 
   		<%= f.submit "Crear residencia", class: 'btn btn-primary' %>
