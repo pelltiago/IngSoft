@@ -9,9 +9,12 @@
 	</thead>
 
 <tbody>
+
 	<%= @residences.each do |r| %>
 	<tr>
 		<td><%= residence.name %></td>
+		<label for="name"> Name</label>
+    	<input type="text" id="name" name="name" placeholder="Nombre residence">
 		<td> </td>
 	</tr>
 	<%= end %>
